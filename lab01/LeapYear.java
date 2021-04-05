@@ -9,7 +9,11 @@ public class LeapYear {
      * @source CS 61BL Lab 1
      */
     public static boolean isLeapYear(int year) {
-        // TOOD: Fill in this method.
+        // True if (divisible by 400) || (divisible by 4 && not by 100)
+        if (year % 400 == 0 || (year % 4 == 0 && year % 100 != 0)){
+            return true;
+        }
+        return false;
     }
 
     /** Calls isLeapYear to print correct statement. */
