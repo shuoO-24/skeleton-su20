@@ -85,4 +85,14 @@ public class Body {
         xxVel = newVelX;
         yyVel = newVelY;
     }
+
+    //  Planet can be: jupiter, mars, mercury, neptune
+    //  nucleus, pluto, saturn, earth, blackhole, ball, asteroid...
+    public void draw(){
+
+        StdDraw.setScale(-100, 100);
+
+        StdDraw.picture(xxPos/4E9, yyPos/4E9, "images/" + imgFileName);
+
+    }
 }

@@ -216,11 +216,11 @@ public class StdDrawDemo {
 
 		* notice the differences. */
 
-		drawThree();
+		drawThree();  // display three static objects
 
-		//drawRandom();
+		drawRandom(); // a single object's random motion
 
-		//drawZoom();
+		drawZoom();  // zoom in
 
 	}
 

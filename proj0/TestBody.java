@@ -1,6 +1,3 @@
-/**
- *  Tests the Body constructor.
- */
 public class TestBody {
 
     public static void main(String[] args) {
@@ -17,7 +14,7 @@ public class TestBody {
      *  @param  actual      Double received
      *  @param  label       Label for the 'test' case
      */
-    private static void checkEquals(double expected, double actual, String label) {
+     public static void checkEquals(double expected, double actual, String label) {
         if (expected == actual) {
             System.out.println("PASS: " + label
                     + ": Expected " + expected
@@ -27,12 +24,12 @@ public class TestBody {
                     + ": Expected " + expected
                     + " and you gave " + actual);
         }
-    }
+     }
         /**
          *  Checks Body constructors to make sure they are setting instance
          *  variables correctly.
          */
-        private static void checkBody(Body Aegir, Body Rocinante) {
+       public static void checkBody(Body Aegir, Body Rocinante) {
 
             System.out.println("Checking first case:");
 
